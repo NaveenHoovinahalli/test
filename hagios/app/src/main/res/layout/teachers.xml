@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivteachers"
+        android:text="Teachers"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@color/apptheame"
+        android:textSize="20sp"
+        android:padding="5dp"/>
+    <ListView
+
+        android:dividerHeight="5dp"
+        android:layout_below="@id/ivteachers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listTeachers"/>
+
+
+</RelativeLayout>

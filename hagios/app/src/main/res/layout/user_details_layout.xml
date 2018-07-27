@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/rounded_edit_text"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/one_side">
+
+        <TextView
+            android:text="Name  :"
+            style="@style/app_text_view"/>
+
+        <EditText
+            android:id="@+id/studentName"
+            style="@style/app_edit_text"
+            android:maxLength="20"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:editable="false">
+            <requestFocus/>
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/one_side">
+
+        <TextView
+            android:text="DOB     :"
+            style="@style/app_text_view"/>
+
+        <EditText
+            android:id="@+id/et_dobe"
+            style="@style/app_edit_text"
+            android:maxLength="20"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:editable="false">
+            <requestFocus/>
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/one_side">
+
+        <TextView
+            android:text="Father  :"
+            style="@style/app_text_view"
+            />
+
+            <EditText
+            style="@style/app_edit_text"
+            android:inputType="number"
+            android:id="@+id/et_father"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:editable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/one_side">
+
+        <TextView
+            android:text="Phone  :"
+            style="@style/app_text_view"/>
+
+        <EditText
+            style="@style/app_edit_text"
+            android:inputType="number"
+            android:id="@+id/et_mobileNo"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:editable="false"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/one_side">
+
+        <TextView
+            android:text="Roll No :"
+            style="@style/app_text_view"
+            />
+
+        <EditText
+            android:id="@+id/rollNo"
+            style="@style/app_edit_text"
+            android:maxLength="20"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:editable="false">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/one_side">
+
+        <TextView
+            android:text="Email_Id:"
+            style="@style/app_text_view"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/email_id"
+            style="@style/app_edit_text"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:editable="false"
+
+         />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Address:"
+            style="@style/app_text_view"
+         />
+
+        <EditText
+            android:id="@+id/address"
+            style="@style/app_edit_text"
+            android:lines="3"
+            android:maxLines="6"
+            android:editable="false"
+            />
+
+    </LinearLayout>
+</LinearLayout>

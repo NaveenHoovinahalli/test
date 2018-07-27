@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" 
+        android:id="@+id/gpRow"
+         android:weightSum="10"
+         android:background="@android:color/holo_blue_dark"
+         >
+
+        <TextView
+            android:id="@+id/TxtGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:text="Group Text"
+            android:textAppearance="?android:attr/textAppearanceListItem"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_weight="9" />
+
+       <!--  <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+           	android:layout_weight="1"
+           	android:src="@drawable/down"
+             /> -->
+
+    </TableRow>
+
+</TableLayout><!-- From: file:/D:/AndroidstudioWorkplace/samekshe/hagios/app/src/main/res/layout/list_group.xml -->

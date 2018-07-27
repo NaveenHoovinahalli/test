@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+     >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marks Card"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@color/apptheame"
+       />
+
+            <com.example.samikshe.utils.AnimatedExpandableListView
+                android:layout_marginTop="10dp"
+                android:id="@+id/lvExpMarksCard"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:cacheColorHint="#00000000"
+                android:background="#ffffff"
+                android:dividerHeight="5dp"
+                />
+
+</LinearLayout>

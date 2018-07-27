@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+     android:background="@drawable/listitembackground">
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        >
+
+        <TextView
+            android:textColor="@color/apptheame"
+            android:id="@+id/informationtopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12-1-16 :: 22-1-16"
+        android:gravity="right"
+            android:layout_marginRight="10dp"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:id="@+id/informationDesc"
+        android:layout_below="@id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eventNextPage"
+        android:src="@drawable/arrow_r"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout><!-- From: file:/D:/AndroidstudioWorkplace/samekshe/hagios/app/src/main/res/layout/information_list_item.xml -->

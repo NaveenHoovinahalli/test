@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="#0067A1"
+    android:id="@+id/pool_inflate">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1F2F2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+        <ImageView android:id="@+id/student_pic"
+            android:paddingTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_launcher1"
+            android:layout_gravity="center"
+            android:background="#000000"
+            />
+
+
+        </RelativeLayout>
+
+        <include
+            layout="@layout/user_details_layout"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/done_btn"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:textColor="@color/white"
+            android:background="@drawable/apptheame_rounded_btn"
+            android:text="Done"/>
+</LinearLayout>
+</RelativeLayout><!-- From: file:/D:/AndroidstudioWorkplace/samekshe/hagios/app/src/main/res/layout/studentdesc.xml -->

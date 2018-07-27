@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My School Name"
+        android:textSize="21sp"
+        android:padding="3dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@color/apptheame"
+        />
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pagerforfeed"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- 1st colum-->
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:onClick="onclick"
+                        android:layout_marginRight="4dp"
+                        android:gravity="center"
+                        android:background="@color/color1"
+                        android:layout_weight=".4"
+                        android:id="@+id/teachersButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:text="Teachers"/>
+                <!--android:background="#019DDA"-->
+
+
+
+                <TextView
+                        android:textColor="@color/white"
+                        android:id="@+id/btnTimeTable"
+                        android:clickable="true"
+                        android:onClick="onclick"
+                        android:gravity="center"
+                    android:background="@color/color2"
+                        android:layout_weight=".6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Time Table"/>
+                <!--android:background="#F0A20A"-->
+
+            </LinearLayout>
+
+            <!-- 2nd colum-->
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/color3"
+                android:layout_margin="2dp"
+                android:padding="10dp">
+                <TextView
+                    android:textColor="@color/white"
+                    android:id="@+id/btnGallary"
+                    android:onClick="onclick"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Gallery"/>
+                <!--                 android:background="@color/green"-->
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:onClick="onclick"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center"
+                    android:background="@color/color4"
+                    android:clickable="true"
+                    android:layout_weight=".65"
+                    android:id="@+id/btnAttendance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Attendance"/>
+                <!--                     android:background="#F07F05"-->
+
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:onClick="onclick"
+                    android:id="@+id/btnCEvent"
+                    android:gravity="center"
+                    android:background="@color/color5"
+                    android:clickable="true"
+                    android:layout_weight=".35"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Events/Holidays"/>
+                <!--                     android:background="#95519C"-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:onClick="onclick"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:background="@color/color6"
+                    android:layout_weight=".45"
+                    android:id="@+id/btnExams"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Exams"/>
+
+                <!--                     android:background="#66CACC"-->
+
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:id="@+id/btnInformation"
+                    android:onClick="onclick"
+                    android:gravity="center"
+                    android:background="@color/color7"
+                    android:clickable="true"
+                    android:layout_weight=".55"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Information"/>
+                <!--                     android:background="#008A00"-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:onClick="onclick"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center"
+                    android:background="@color/color8"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:id="@+id/btnhomework"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Home Work"/>
+                <!--                     android:background="#B40404"-->
+
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:onClick="onclick"
+                    android:id="@+id/btnRemarks"
+                    android:gravity="center"
+                    android:background="@color/color9"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Remarks"/>
+                <!--                     android:background="@color/grey"-->
+            </LinearLayout>
+        </LinearLayout>>
+
+
+
+</LinearLayout>
+
+<!-- From: file:/D:/AndroidstudioWorkplace/samekshe/hagios/app/src/main/res/layout/mainlayout_withouticons_bkp.xml -->

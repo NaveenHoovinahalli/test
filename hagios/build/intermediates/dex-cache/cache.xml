@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidstudioWorkplace\AndroidTutorials\android-layout-samples-master\hagios\app\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e8796346a9191a019e936210a2dc50662c57594b">
+        <dex dex="D:\AndroidstudioWorkplace\AndroidTutorials\android-layout-samples-master\hagios\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.4-jar-with-dependencies-70b832120c475873055466eed87f6158072d8c54.jar" />
+    </item>
+    <item
+        jar="D:\Android_Softwares\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\AndroidstudioWorkplace\AndroidTutorials\android-layout-samples-master\hagios\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-d1d50f30329c0f64a249d69917f5666c94cb44c4.jar" />
+    </item>
+    <item
+        jar="D:\AndroidstudioWorkplace\samekshe\hagios\app\build\intermediates\exploded-aar\com.github.npanigrahy\Custom-Calendar-View\v1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39dc3bd7d37d4f5955432097fead1f4dd789e16c">
+        <dex dex="D:\AndroidstudioWorkplace\samekshe\hagios\app\build\intermediates\pre-dexed\debug\classes-fc7d1edd209459337cd108e63e85ed5f9ced5ae2.jar" />
+    </item>
+    <item
+        jar="D:\AndroidstudioWorkplace\AndroidTutorials\android-layout-samples-master\hagios\app\build\intermediates\exploded-aar\com.github.npanigrahy\Custom-Calendar-View\v1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39dc3bd7d37d4f5955432097fead1f4dd789e16c">
+        <dex dex="D:\AndroidstudioWorkplace\AndroidTutorials\android-layout-samples-master\hagios\app\build\intermediates\pre-dexed\debug\classes-81024712f9218372ccd07b1b45d902254843ae54.jar" />
+    </item>
+    <item
+        jar="D:\AndroidstudioWorkplace\AndroidTutorials\android-layout-samples-master\hagios\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
+        <dex dex="D:\AndroidstudioWorkplace\AndroidTutorials\android-layout-samples-master\hagios\app\build\intermediates\pre-dexed\debug\classes-091852c11745d8a5ddae3e5e54778ef5cf12b4ad.jar" />
+    </item>
+    <item
+        jar="D:\AndroidstudioWorkplace\samekshe\hagios\app\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e8796346a9191a019e936210a2dc50662c57594b">
+        <dex dex="D:\AndroidstudioWorkplace\samekshe\hagios\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.4-jar-with-dependencies-0e23a7ea70d3baa1d9ef7058f9158622e0832561.jar" />
+    </item>
+    <item
+        jar="D:\AndroidstudioWorkplace\samekshe\hagios\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
+        <dex dex="D:\AndroidstudioWorkplace\samekshe\hagios\app\build\intermediates\pre-dexed\debug\classes-2a85ef70b2a86e3cc670286dc91e45dfaa1bb7b6.jar" />
+    </item>
+
+</items>

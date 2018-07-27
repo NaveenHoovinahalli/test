@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.samikshe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="20" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/schoollogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.PagerMain"
+            android:label="Hagios" >
+        </activity>
+        <activity
+            android:name=".activity.ExamsActivity"
+            android:label="Hagios" >
+        </activity>
+        <activity
+            android:name=".activity.TeachersActivity"
+            android:label="Hagios" >
+        </activity>
+        <activity
+            android:name=".activity.HomeWorkActivity"
+            android:label="Hagios" >
+        </activity>
+        <activity
+        android:name=".activity.AttendanceListActivity"
+        android:label="Hagios" >
+        </activity>
+        <activity
+            android:name=".activity.TimetableActivity"
+            android:label="Hagios" >
+        </activity>
+        <activity
+            android:name=".activity.EventsActivity"
+            android:label="Hagios" >
+        </activity>
+        <activity
+            android:name=".activity.StudentMarksActivity"
+            android:label="@string/title_activity_student_marks" >
+        </activity>
+        <activity
+            android:name=".activity.GalleryActivity">
+        </activity>
+        <activity android:name=".activity.InformationActivity"/>
+        <activity android:name=".activity.RemarksActivity"/>
+        <activity android:name=".activity.GalleryPagerMain"/>
+
+    </application>
+
+</manifest>

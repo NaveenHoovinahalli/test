@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/listitembackground"
+    android:padding="2dp"
+    android:layout_margin="1dp">
+
+
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblListItem"
+            android:text="Subject"
+             android:textColor="@color/apptheame"
+            android:textSize="17sp"
+            android:layout_marginRight="20dp"
+             android:layout_marginLeft="3dp"/>
+        <TextView
+            android:layout_below="@id/lblListItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ecentDesc"
+            android:text="9:00am to 10:am"
+            android:textSize="15sp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:layout_marginLeft="3dp"/>
+
+    <TextView
+        android:id="@+id/teacherName"
+        android:layout_below="@id/lblListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bushan"
+        android:textSize="15sp"
+        android:gravity="right"
+        android:layout_marginRight="3dp"/>
+    </RelativeLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/lblListItem"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="19dip"-->
+        <!--android:paddingTop="5dp"-->
+        <!--android:paddingBottom="5dp"-->
+        <!--android:textColor="#000000"-->
+        <!--android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />-->
+
+<!-- From: file:/D:/AndroidstudioWorkplace/samekshe/hagios/app/src/main/res/layout/timetable_list_item.xml -->

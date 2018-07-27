@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.samikshe.activity.AttendanceActivity"
+    >
+
+     <TextView
+        android:id="@+id/calenderImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attendance"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@color/apptheame"
+        android:textColor="@color/white"/>
+
+    <com.imanoweb.calendarview.CustomCalendarView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/calenderImage"
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"  />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/calendar_view"
+        android:id="@+id/attendencedetails"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#ffffff"
+   >
+        <TextView
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holiday"
+            android:textColor="@color/green"
+            android:gravity="center"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Absent"
+            android:textSize="18sp"
+            android:textColor="@color/red"
+            android:gravity="center"/>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holiday"
+            android:textColor="@color/green"
+
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+<!-- From: file:/D:/AndroidstudioWorkplace/samekshe/hagios/app/src/main/res/layout/activity_attendance.xml -->

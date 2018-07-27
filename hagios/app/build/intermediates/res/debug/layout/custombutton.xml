@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" 
+    >
+
+    <ImageButton
+        android:id="@+id/btnImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circlered"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/tvvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnImage"
+        android:layout_alignRight="@+id/btnImage"
+        android:layout_below="@+id/btnImage"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/menutvbg"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
+<!-- From: file:/D:/AndroidstudioWorkplace/samekshe/hagios/app/src/main/res/layout/custombutton.xml -->

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hagios.CalaendarActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eventimage"
+        android:text="Events"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@color/apptheame"
+        android:textSize="20sp"
+        android:padding="5dp"/>
+
+    <LinearLayout
+
+        android:layout_margin="10dp"
+        android:id="@+id/linear_layoutevents"
+        android:layout_below="@id/eventimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/eventClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Events"
+            android:padding="2dp"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/holidaysClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Holidays"
+            android:padding="2dp"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+        </LinearLayout>
+
+<ListView
+    android:layout_marginTop="5dp"
+    android:dividerHeight="5dp"
+    android:layout_below="@id/linear_layoutevents"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listEvent"
+    android:background="#ffffff"/>
+ 
+
+</RelativeLayout><!-- From: file:/D:/AndroidstudioWorkplace/samekshe/hagios/app/src/main/res/layout/activity_events.xml -->
